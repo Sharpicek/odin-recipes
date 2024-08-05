@@ -1,0 +1,108 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #eae2b7;
+    color: #003049;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.main {
+    width: 1200px;
+    margin: 32px auto;
+    background-color: #fcbf49;
+    padding: 12px;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.4);
+}
+
+/* ----- Headers ------ */
+
+h1 {
+    font-size: 36px;
+    margin: 0 0 12px; 
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h2.steps {
+    text-align: center;
+}
+
+h3.chilli {
+    color: darkred;
+}
+
+/* ----- Lists ----- */
+
+ul.butter-chicken {
+    margin-left: 600px;
+}
+
+ul.choco-gran {
+    margin-left: 300px;
+}
+
+ul.menu {
+    width: 150px;
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+ul.menu li  {
+    border: 3px solid #eae2b7;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #eae2b7;
+    border-radius: 30px; 
+    color:#003049;
+}
+
+ul.menu li:hover  { 
+    color:#f77f00;
+}
+
+/* ----- Images ----- */
+
+img {
+    margin-right: 30px;
+    width: 600px;
+    height: auto;
+    float: left;
+}
+
+img.granola {
+    height: 450px;
+    width: auto;
+}
+
+/* ----- Links ------ */
+
+
+a {
+    text-decoration: none;
+    color: #d62828;
+}
+
+a:hover {
+    color: #f77f00;
+}
+
+/* ----- Footer ----- */
+
+footer {
+    text-align: center;
+    border-top: 1px solid #d62828;
+}
+
+div.footer-back {
+    font-size: 12px;
+    padding-top: 8px;
+}
